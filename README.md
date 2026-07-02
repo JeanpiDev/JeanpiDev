@@ -91,6 +91,6 @@ Upload calls and documents to generate structured Word reports with Claude. Real
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dev-jeanpi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://tu-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=FF7139"></a>
+  <a href="https://jeanpi-ramirez.vercel.app/es/"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=FF7139"></a>
   <a href="mailto:devjeanpi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
