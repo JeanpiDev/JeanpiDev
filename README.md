@@ -13,36 +13,35 @@
 visitor@jean:~$ whoami
 ```
 
-**Software Engineer** 🇨🇴 — construyo aplicaciones web modernas y les integro **IA que resuelve problemas reales**.
-_I build modern web apps and integrate AI that solves real problems._
+**Software Engineer** 🇨🇴 — I build modern web applications and integrate **AI that solves real problems**.
 
-- 💻 Backend con **Python / FastAPI** (SQLAlchemy, gRPC) y **NestJS** + frontend sólido (Angular · Next.js · React).
-- 🤖 Diferenciador: **integro IA** en productos en producción: LLMs multi-proveedor con fallback (Claude, OpenAI, DeepSeek), RAG y seguridad frente a prompt-injection.
-- 🎯 Abierto a oportunidades **remotas full-time** (LatAm / EE. UU.).
-- 🎮 Fuera del código: videojuegos, cubos de Rubik y lectura.
+- 💻 Backend with **Python / FastAPI** (SQLAlchemy, gRPC) and **NestJS**, plus a solid frontend (Angular · Next.js · React).
+- 🤖 What sets me apart: I ship **AI in production** — multi-provider LLMs with fallback (Claude, OpenAI, DeepSeek), RAG and prompt-injection defense.
+- 🎯 Open to **full-time remote** opportunities (LatAm / US).
+- 🎮 Off the keyboard: video games, Rubik's cubes and reading.
 
 <br>
 
 <!-- ASSISTANT — el diferenciador, al frente del embudo -->
-## 🤖 Habla con mi portafolio
+## 🤖 Talk to my portfolio
 
-Mi sitio tiene un **asistente de IA (Claude)** entrenado con mi perfil: pregúntale lo que quieras sobre mi
-experiencia, stack o proyectos y responde en tiempo real. Incluye **modo reclutador** de un clic que genera
-un pitch listo para compartir.
+My site has an **AI assistant (Claude)** grounded in my profile: ask it anything about my experience,
+stack or projects and it answers in real time. It includes a one-click **recruiter mode** that generates
+a ready-to-share pitch.
 
-**→ [Pruébalo en vivo](https://jeanpi-ramirez.vercel.app/es/) · [Try it live](https://jeanpi-ramirez.vercel.app/en/)**
+**→ [Try it live](https://jeanpi-ramirez.vercel.app/en/) · [Versión en español](https://jeanpi-ramirez.vercel.app/es/)**
 
 <br>
 
 <!-- FEATURED PROJECTS -->
-## 🚀 Proyectos destacados
+## 🚀 Featured projects
 
-**🎧 Contact Center AI Analyzer** &nbsp;·&nbsp; <sub><i>trabajo profesional / privado</i></sub>
+**🎧 Contact Center AI Analyzer** &nbsp;·&nbsp; <sub><i>professional work / private</i></sub>
 
-Plataforma que analiza interacciones de contact center (audio, video y documentos) y genera reportes
-automáticos en Word con **Claude** (con prompt caching). Cola de trabajos en tiempo real por WebSockets,
-transcripción automatizada con caché, panel de administración con RBAC y métricas, y hardening de
-seguridad (CSP con nonce, rate limiting, audit log).
+Platform that analyzes contact center interactions (audio, video and documents) and automatically
+generates Word reports with **Claude** (using prompt caching). Real-time job queue over WebSockets,
+cached automated transcription, admin panel with RBAC and usage metrics, and security hardening
+(nonce-based CSP, rate limiting, audit log).
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -53,12 +52,12 @@ seguridad (CSP con nonce, rate limiting, audit log).
 
 <br>
 
-**🚗 Plataforma de crédito vehicular** &nbsp;·&nbsp; <sub><i>trabajo profesional / privado</i></sub>
+**🚗 Vehicle loan platform** &nbsp;·&nbsp; <sub><i>professional work / private</i></sub>
 
-Sistema en producción para solicitudes de crédito: formulario público, panel por roles, simulador de
-crédito validado con tests de amortización, microservicio **gRPC** para un catálogo de ~13.500 vehículos,
-**análisis financiero con IA** (multi-proveedor con fallback, progreso en vivo por SSE y control de costos),
-firma electrónica con webhooks y PDFs generados con jsreport.
+Production system for loan applications: public application form, role-based panel, loan simulator
+validated with amortization tests, a **gRPC** microservice for a ~13,500-vehicle catalog,
+**AI financial analysis** (multi-provider with fallback, live progress over SSE and cost tracking),
+e-signature with webhooks and PDF generation with jsreport.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -71,9 +70,9 @@ firma electrónica con webhooks y PDFs generados con jsreport.
 
 **🔒 [local-ai-gateway](https://github.com/JeanpiDev/local-ai-gateway)**
 
-IA local autohospedada (Ollama + Open WebUI) tras un gateway compatible con la API de OpenAI:
-API keys por usuario, **defensa en capas contra prompt-injection** (heurísticas, llm-guard, Prompt Guard 2
-y filtro de salida) y control de concurrencia con `429` en saturación.
+Self-hosted local AI (Ollama + Open WebUI) behind an OpenAI-compatible API gateway: per-user API keys,
+**layered prompt-injection defense** (heuristics, llm-guard, Prompt Guard 2 and an output guard) and
+concurrency control that returns `429` under load — so sensitive data never leaves the server.
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -82,11 +81,11 @@ y filtro de salida) y control de concurrencia con `429` en saturación.
 
 <br>
 
-**🧱 [Inventario con Arquitectura Limpia + agente RAG](https://github.com/JeanpiDev/clean-architecture-inventory-rag)**
+**🧱 [Clean Architecture inventory + RAG agent](https://github.com/JeanpiDev/clean-architecture-inventory-rag)**
 
-App full-stack de empresas, productos e inventario con **Arquitectura Limpia** (dominio puro empaquetado
-con Poetry), microservicios FastAPI para PDF/correo e IA, **agente RAG** con pgvector + LangChain + Claude,
-roles con JWT, Argon2 y auditoría con cadena de hashes. Lighthouse 99/98/96/100 y Quality Gate de SonarQube aprobado.
+Full-stack app for companies, products and inventory built with **Clean Architecture** (pure domain packaged
+with Poetry), FastAPI microservices for PDF/email and AI, a **RAG agent** with pgvector + LangChain + Claude,
+JWT roles, Argon2 and a hash-chain audit log. Lighthouse 99/98/96/100 and a passing SonarQube Quality Gate.
 
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -99,8 +98,8 @@ roles con JWT, Argon2 y auditoría con cadena de hashes. Lighthouse 99/98/96/100
 
 **🎙️ [sonix-transcription-bot](https://github.com/JeanpiDev/sonix-transcription-bot)**
 
-Bot con Selenium + FastAPI que sube audio/video en lote a Sonix.ai, consulta el estado de la
-transcripción y descarga los resultados.
+Selenium + FastAPI bot that bulk-uploads audio/video to Sonix.ai, polls transcription status and
+downloads the results, with content-hash caching.
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -130,7 +129,7 @@ transcripción y descarga los resultados.
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
 
-**IA & Productividad**
+**AI & Productivity**
 
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
@@ -139,13 +138,13 @@ transcripción y descarga los resultados.
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
-**Bases de datos**
+**Databases**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-**Herramientas & DevOps**
+**Tools & DevOps**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -174,10 +173,10 @@ transcripción y descarga los resultados.
 <br>
 
 <!-- CONTACT -->
-## 📬 Contacto
+## 📬 Contact
 
 <p align="center">
-  <a href="https://jeanpi-ramirez.vercel.app/es/"><img src="https://img.shields.io/badge/Portafolio-e6a94c?style=for-the-badge&logo=astro&logoColor=0d0b0a" alt="Portafolio" /></a>
+  <a href="https://jeanpi-ramirez.vercel.app/en/"><img src="https://img.shields.io/badge/Portfolio-e6a94c?style=for-the-badge&logo=astro&logoColor=0d0b0a" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/dev-jeanpi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:devjeanpi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
