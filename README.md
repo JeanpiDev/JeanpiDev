@@ -16,9 +16,9 @@ visitor@jean:~$ whoami
 **Software Engineer** 🇨🇴 — construyo aplicaciones web modernas y les integro **IA que resuelve problemas reales**.
 _I build modern web apps and integrate AI that solves real problems._
 
-- 💻 Frontend sólido (Angular · Next.js · React) + backend con **NestJS / FastAPI**.
-- 🤖 Diferenciador: **integro IA** (Claude, agentes, automatización) en productos y flujos de desarrollo.
-- 🎯 Buscando rol **remoto full-time** (LatAm / EE. UU.). Disponibilidad inmediata.
+- 💻 Backend con **Python / FastAPI** (SQLAlchemy, gRPC) y **NestJS** + frontend sólido (Angular · Next.js · React).
+- 🤖 Diferenciador: **integro IA** en productos en producción: LLMs multi-proveedor con fallback (Claude, OpenAI, DeepSeek), RAG y seguridad frente a prompt-injection.
+- 🎯 Abierto a oportunidades **remotas full-time** (LatAm / EE. UU.).
 - 🎮 Fuera del código: videojuegos, cubos de Rubik y lectura.
 
 <br>
@@ -40,13 +40,31 @@ un pitch listo para compartir.
 **🎧 Contact Center AI Analyzer** &nbsp;·&nbsp; <sub><i>trabajo profesional / privado</i></sub>
 
 Plataforma que analiza interacciones de contact center (audio, video y documentos) y genera reportes
-automáticos en Word con **Claude**. Cola de trabajos en tiempo real por WebSockets, transcripción de
-audio/video y panel de administración con RBAC y métricas de uso.
+automáticos en Word con **Claude** (con prompt caching). Cola de trabajos en tiempo real por WebSockets,
+transcripción automatizada con caché, panel de administración con RBAC y métricas, y hardening de
+seguridad (CSP con nonce, rate limiting, audit log).
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+<br>
+
+**🚗 Plataforma de crédito vehicular** &nbsp;·&nbsp; <sub><i>trabajo profesional / privado</i></sub>
+
+Sistema en producción para solicitudes de crédito: formulario público, panel por roles, simulador de
+crédito validado con tests de amortización, microservicio **gRPC** para un catálogo de ~13.500 vehículos,
+**análisis financiero con IA** (multi-proveedor con fallback, progreso en vivo por SSE y control de costos),
+firma electrónica con webhooks y PDFs generados con jsreport.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Web_Components-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 <br>
@@ -54,11 +72,27 @@ audio/video y panel de administración con RBAC y métricas de uso.
 **🔒 [local-ai-gateway](https://github.com/JeanpiDev/local-ai-gateway)**
 
 IA local autohospedada (Ollama + Open WebUI) tras un gateway compatible con la API de OpenAI:
-autenticación multiusuario por API key, defensa contra prompt-injection y control de concurrencia.
+API keys por usuario, **defensa en capas contra prompt-injection** (heurísticas, llm-guard, Prompt Guard 2
+y filtro de salida) y control de concurrencia con `429` en saturación.
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+<br>
+
+**🧱 [Inventario con Arquitectura Limpia + agente RAG](https://github.com/JeanpiDev/clean-architecture-inventory-rag)**
+
+App full-stack de empresas, productos e inventario con **Arquitectura Limpia** (dominio puro empaquetado
+con Poetry), microservicios FastAPI para PDF/correo e IA, **agente RAG** con pgvector + LangChain + Claude,
+roles con JWT, Argon2 y auditoría con cadena de hashes. Lighthouse 99/98/96/100 y Quality Gate de SonarQube aprobado.
+
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 <br>
@@ -88,25 +122,36 @@ transcripción y descarga los resultados.
 
 **Backend**
 
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
 
 **IA & Productividad**
 
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
 **Bases de datos**
 
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 **Herramientas & DevOps**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
